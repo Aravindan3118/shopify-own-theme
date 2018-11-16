@@ -1,0 +1,9 @@
+.card__price--sale{
+  color:red;
+}
+.card__image{
+  transition: all 0.5s;
+  &:hover{
+    transform: scale(0.8);
+  }
+}
